@@ -5,6 +5,7 @@ class Dancer
   include Dance 
   
   attr_accessor :name 
+  extend FancyDance::ClassMethods
   
   
   def initialize(name)
